@@ -5,16 +5,81 @@ const PORT = 8000
 
 const sopranos = {
     "tony soprano": {
-        firstEpisode: "pilot",
-        lastEpisode: "member's only"
+        name: 'anthony john soprano',
+        aliases: "tone, t, tony uncle-johnny",
+        firstEpisode: "the sopranos",
+        lastEpisode: "made in america",
+        portrayedBy: "james gandolfini"
     },
     "carmela soprano": {
-        firstEpisode: "pilot",
-        lastEpisode: "member's only"    
+        name: "carmela soprano",
+        aliases: "none",
+        firstEpisode: "the sopranos",
+        lastEpisode: "made in america",
+        portrayedBy: "edie falco"   
+    },
+    "meadow soprano": {
+        name: "meadow soprano",
+        aliases: "none",
+        firstEpisode: "the sopranos",
+        lastEpisode: "made in america",
+        portrayedBy: "jamie-lynn sigler"   
+    },
+    "aj soprano": {
+        name: "anthony soprano, jr.",
+        aliases: "googotz",
+        firstEpisode: "the sopranos",
+        lastEpisode: "made in america",
+        portrayedBy: "robert iler"   
+    },
+    "christopher moltisanti": {
+        name: "christopher moltisanti",
+        aliases: "chrissy, chris maceveety, chris montevani",
+        firstEpisode: "the sopranos",
+        lastEpisode: "kennedy and heidi",
+        portrayedBy: "michael imperioli"   
+    },
+    "junior soprano": {
+        name: "corrado john soprano, jr.",
+        aliases: "junior, uncle jun",
+        firstEpisode: "the sopranos",
+        lastEpisode: "made in america",
+        portrayedBy: "dominic chianese"   
+    },
+    "livia soprano": {
+        name: "olivia soprano",
+        aliases: "none",
+        firstEpisode: "the sopranos",
+        lastEpisode: "in camelot",
+        portrayedBy: "nancy marchand"   
+    },
+    "paulie gualtieri": {
+        name: "peter paul gualtieri",
+        aliases: "paulie walnuts, ted hughes",
+        firstEpisode: "the sopranos",
+        lastEpisode: "made in america",
+        portrayedBy: "tony sirico"   
+    },
+    "silvio dante": {
+        name: "silvio manfred dante",
+        aliases: "sil",
+        firstEpisode: "the sopranos",
+        lastEpisode: "made in america",
+        portrayedBy: "steven van zandt"   
+    },
+    "sal bonpensiero": {
+        name: "salvatore bonpensiero",
+        aliases: "big pussy, puss",
+        firstEpisode: "the sopranos",
+        lastEpisode: "remember when",
+        portrayedBy: "vincent pastore"   
     },
     "unknown": {
+        name: "unknown",
+        aliases: "unknown",
         firstEpisode: "unknown",
-        lastEpisode: "unknown"
+        lastEpisode: "unknown",
+        portrayedBy: "unknown"   
     }
 }
 
