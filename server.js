@@ -12,70 +12,80 @@ const sopranos = {
         aliases: "Tone, T, Tony Uncle-Johnny",
         firstEpisode: "The Sopranos",
         lastEpisode: "Made in America",
-        portrayedBy: "James Gandolfini"
+        portrayedBy: "James Gandolfini",
+        url: "assets/tony.jpg"
     },
     "carmela soprano": {
         name: "Carmela Soprano",
         aliases: "None",
         firstEpisode: "The Sopranos",
         lastEpisode: "Made in America",
-        portrayedBy: "Edie Falco"   
+        portrayedBy: "Edie Falco",
+        url: "assets/carmela.jpg"   
     },
     "meadow soprano": {
         name: "Meadow Soprano",
         aliases: "None",
         firstEpisode: "The Sopranos",
         lastEpisode: "Made in America",
-        portrayedBy: "Jamie-Lynn Sigler"   
+        portrayedBy: "Jamie-Lynn Sigler",
+        url: "assets/meadow.jpg"   
     },
     "aj soprano": {
         name: "Anthony Soprano, Jr.",
         aliases: "Googotz",
         firstEpisode: "The Sopranos",
         lastEpisode: "Made in America",
-        portrayedBy: "Robert Iler"   
+        portrayedBy: "Robert Iler",
+        url: "assets/aj.jpg"   
     },
     "christopher moltisanti": {
         name: "Christopher Moltisanti",
         aliases: "Chrissy, Chris MacEveety, Chris Montevani",
         firstEpisode: "The Sopranos",
         lastEpisode: "Kennedy and Heidi",
-        portrayedBy: "Michael Imperioli"   
+        portrayedBy: "Michael Imperioli",
+        url: "assets/chris.jpg"     
     },
     "junior soprano": {
         name: "Corrado John Soprano, Jr.",
         aliases: "Junior, Uncle Jun",
         firstEpisode: "The Sopranos",
         lastEpisode: "Made in America",
-        portrayedBy: "Dominic Chianese"   
+        portrayedBy: "Dominic Chianese",
+        url: "assets/junior.jpg"     
     },
     "livia soprano": {
         name: "Olivia Soprano",
         aliases: "None",
         firstEpisode: "The Sopranos",
         lastEpisode: "In Camelot",
-        portrayedBy: "Nancy Marchand"   
+        portrayedBy: "Nancy Marchand",
+        url: "assets/livia.jpg"   
     },
     "paulie gualtieri": {
         name: "Peter Paul Gualtieri",
         aliases: "Paulie Walnuts",
         firstEpisode: "The Sopranos",
         lastEpisode: "Made in America",
-        portrayedBy: "Tony Sirico"   
+        portrayedBy: "Tony Sirico",
+        url: "assets/paulie.jpg"     
     },
     "silvio dante": {
         name: "Silvio Manfred Dante",
         aliases: "Sil",
         firstEpisode: "The Sopranos",
         lastEpisode: "Made in America",
-        portrayedBy: "Steven van Zandt"   
+        portrayedBy: "Steven van Zandt",
+        url: "assets/silvio.jpg"     
     },
     "sal bonpensiero": {
         name: "Salvatore Bonpensiero",
         aliases: "Big Pussy, Puss",
         firstEpisode: "The Sopranos",
         lastEpisode: "Remember When",
-        portrayedBy: "Vincent Pastore"   
+        portrayedBy: "Vincent Pastore",
+        url: "assets/sal.jpg"     
     },
     "unknown": {
         name: "unknown",
