@@ -1,7 +1,10 @@
 const express = require('express')
 const res = require('express/lib/response')
 const app = express()
+const cors = require('cors')
 const PORT = 8000
+
+app.use(cors())
 
 const sopranos = {
     "tony soprano": {
