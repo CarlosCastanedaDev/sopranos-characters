@@ -8,74 +8,74 @@ app.use(cors())
 
 const sopranos = {
     "tony soprano": {
-        name: 'anthony john soprano',
-        aliases: "tone, t, tony uncle-johnny",
-        firstEpisode: "the sopranos",
-        lastEpisode: "made in america",
-        portrayedBy: "james gandolfini"
+        name: 'Anthony John Soprano',
+        aliases: "Tone, T, Tony Uncle-Johnny",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "Made in America",
+        portrayedBy: "James Gandolfini"
     },
     "carmela soprano": {
-        name: "carmela soprano",
-        aliases: "none",
-        firstEpisode: "the sopranos",
-        lastEpisode: "made in america",
-        portrayedBy: "edie falco"   
+        name: "Carmela Soprano",
+        aliases: "None",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "Made in America",
+        portrayedBy: "Edie Falco"   
     },
     "meadow soprano": {
-        name: "meadow soprano",
-        aliases: "none",
-        firstEpisode: "the sopranos",
-        lastEpisode: "made in america",
-        portrayedBy: "jamie-lynn sigler"   
+        name: "Meadow Soprano",
+        aliases: "None",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "Made in America",
+        portrayedBy: "Jamie-Lynn Sigler"   
     },
     "aj soprano": {
-        name: "anthony soprano, jr.",
-        aliases: "googotz",
-        firstEpisode: "the sopranos",
-        lastEpisode: "made in america",
-        portrayedBy: "robert iler"   
+        name: "Anthony Soprano, Jr.",
+        aliases: "Googotz",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "Made in America",
+        portrayedBy: "Robert Iler"   
     },
     "christopher moltisanti": {
-        name: "christopher moltisanti",
-        aliases: "chrissy, chris maceveety, chris montevani",
-        firstEpisode: "the sopranos",
-        lastEpisode: "kennedy and heidi",
-        portrayedBy: "michael imperioli"   
+        name: "Christopher Moltisanti",
+        aliases: "Chrissy, Chris MacEveety, Chris Montevani",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "Kennedy and Heidi",
+        portrayedBy: "Michael Imperioli"   
     },
     "junior soprano": {
-        name: "corrado john soprano, jr.",
-        aliases: "junior, uncle jun",
-        firstEpisode: "the sopranos",
-        lastEpisode: "made in america",
-        portrayedBy: "dominic chianese"   
+        name: "Corrado John Soprano, Jr.",
+        aliases: "Junior, Uncle Jun",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "Made in America",
+        portrayedBy: "Dominic Chianese"   
     },
     "livia soprano": {
-        name: "olivia soprano",
-        aliases: "none",
-        firstEpisode: "the sopranos",
-        lastEpisode: "in camelot",
-        portrayedBy: "nancy marchand"   
+        name: "Olivia Soprano",
+        aliases: "None",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "In Camelot",
+        portrayedBy: "Nancy Marchand"   
     },
     "paulie gualtieri": {
-        name: "peter paul gualtieri",
-        aliases: "paulie walnuts, ted hughes",
-        firstEpisode: "the sopranos",
-        lastEpisode: "made in america",
-        portrayedBy: "tony sirico"   
+        name: "Peter Paul Gualtieri",
+        aliases: "Paulie Walnuts",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "Made in America",
+        portrayedBy: "Tony Sirico"   
     },
     "silvio dante": {
-        name: "silvio manfred dante",
-        aliases: "sil",
-        firstEpisode: "the sopranos",
-        lastEpisode: "made in america",
-        portrayedBy: "steven van zandt"   
+        name: "Silvio Manfred Dante",
+        aliases: "Sil",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "Made in America",
+        portrayedBy: "Steven van Zandt"   
     },
     "sal bonpensiero": {
-        name: "salvatore bonpensiero",
-        aliases: "big pussy, puss",
-        firstEpisode: "the sopranos",
-        lastEpisode: "remember when",
-        portrayedBy: "vincent pastore"   
+        name: "Salvatore Bonpensiero",
+        aliases: "Big Pussy, Puss",
+        firstEpisode: "The Sopranos",
+        lastEpisode: "Remember When",
+        portrayedBy: "Vincent Pastore"   
     },
     "unknown": {
         name: "unknown",
