@@ -1,12 +1,16 @@
 const express = require('express')
 const res = require('express/lib/response')
 const app = express()
+require('dotenv').config()
 const cors = require('cors')
 const PORT = 8000
+const MongoClient = require('mongodb').MongoClient
+const conString = process.env.DB_STRING
 
 app.use(cors())
+app.use(express.json())
 
-const sopranos = {
+/* const sopranos = {
     "tony soprano": {
         name: 'Anthony John Soprano',
         aliases: "Tone, T, Tony Uncle-Johnny",
@@ -94,20 +98,36 @@ const sopranos = {
         lastEpisode: "unknown",
         portrayedBy: "unknown"   
     }
-}
+} */
 
-app.get('/', (request, response) => {
+MongoClient.connect(conString, {useUnifiedTopology: true})
+    .then(client => {
+        console.log('Connected to Database')
+        const db = client.db('sopranos')
+        const infoCollection = db.collection('characters')
+    
+
+    app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
-})
+    })
 
-app.get('/api/:name', (request, response) => {
-    const characterName = request.params.name.toLowerCase()
-    if (sopranos[characterName]){
-        response.json(sopranos[characterName])
-    }else{
-        response.json(sopranos['unknown'])
-    }
+    app.get('/api/:random', (request, response) => {
+    const charsName = request.params.random.toLowerCase()
+        infoCollection.find({ characterName: charsName}).toArray()
+        .then(results => {
+            console.log(results)
+            response.json(results[0])
+        })
+        .catch(error => console.error(error))
+    // if (sopranos[characterName]){
+    //     response.json(sopranos[characterName])
+    // }else{
+    //     response.json(sopranos['unknown'])
+    // }
+    })
+
 })
+.catch(error => console.error(error))
 
 app.listen(process.env.PORT || PORT, () => {
     console.log(`The server is now running on port ${PORT}`)
